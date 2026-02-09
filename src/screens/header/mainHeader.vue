@@ -5,7 +5,7 @@
       <p>Logotipo</p>
     </div>
     <!--opções -->
-    <ul class=" hidden options sm:flex flex-row gap-4 font-medium text-sm text-gray-800 cursor-pointer">
+    <ul class=" hidden options sm:flex flex-row gap-4 font-medium text-lg text-gray-800 cursor-pointer">
       <li>Sobre</li>
       <li> <a href="#clinic">Psicologia Clínica</a> </li>
       <li>Orientação profissional</li>
@@ -20,10 +20,10 @@ import contact from '../buttons/contact.vue';
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* só aplica no <ul> com class "options" */
 .options {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 </style>

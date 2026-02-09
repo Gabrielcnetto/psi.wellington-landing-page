@@ -10,8 +10,13 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
-    tailwindcss()
+    tailwindcss(),
   ],
+  server: {
+    allowedHosts: [
+      '0ddd-2804-3f4-102-1f01-54df-2aec-2b34-6d82.ngrok-free.app'
+    ]
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

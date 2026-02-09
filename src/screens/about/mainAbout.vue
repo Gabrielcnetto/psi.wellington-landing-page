@@ -1,17 +1,16 @@
 <template>
-  <div class="w-full h-auto p-5 px-4 sm:px-20 py-10 sm:py-0 bg-orange-100/40 rounded-2xl grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center gap-8">
+  <div class="w-full h-auto  bg-orange-100/40 rounded-2xl grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center gap-8">
     
     <div class="flex flex-col gap-4 justify-center items-start w-full px-2 sm:px-6 p-5">
-      <h1 class="text-3xl sm:text-5xl font-medium leading-snug">
+      <h1 class="text-3xl sm:text-4xl font-medium leading-snug">
         {{ Comprimentar() }}<br>
         Eu sou o psicólogo<br>
-        <span class="text-green-800 font-bold">Wellington Carlos Netto</span>
+        <span class="text-black font-bold">Wellington Carlos Netto</span>
       </h1>
-      <p class="crp text-sm sm:text-sm mt-3 font-medium text-black">CRP - XX/XXXXX</p>
+      <!--<p class="crp text-sm sm:text-sm mt-3 font-medium text-black">CRP - XX/XXXXX</p>-->
       <p class="brev_desc text-sm sm:text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, explicabo perferendis ea repudiandae
-        quaerat quo aperiam consequatur cumque veniam eum praesentium labore! Earum minus ut soluta dolore
-        quasi, provident quam.
+        Psicólogo, graduado pela Universidade Feevale (RS), com pós-graduação em Análise do Comportamento Aplicado (ABA). 
+        Atuo como Orientador Profissional e de Carreira, tendo impactado mais de 400 pessoas por meio de projetos de orientação.
       </p>
       <div class="mt-4 flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3">
         <contact></contact>
@@ -21,8 +20,8 @@
       </div>
     </div>
 
-    <div class="w-full h-60 sm:h-full bg-orange-400 flex items-center justify-center rounded-lg">
-      <p>Foto aqui</p>
+    <div class="w-full h-60 sm:h-full bg-orange-400 flex items-center justify-center rounded-lg rounded-r-2xl">
+      <img :src="WellPhoto" class="rounded-r-2xl" >
     </div>
 
   </div>
@@ -30,6 +29,7 @@
 
 <script setup>
 import contact from '../buttons/contact.vue';
+import WellPhoto from "@/assets/img/first-block-well.jpeg"
 function Comprimentar() {
     let _date = new Date();
     let _hour = _date.getHours();
@@ -45,16 +45,16 @@ function Comprimentar() {
 
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* só aplica no <ul> com class "options" */
 .crp {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 .see_more{
-      font-family: 'Poppins', sans-serif;
+      font-family: "Lato", sans-serif;
 }
 .brev_desc{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 </style>
