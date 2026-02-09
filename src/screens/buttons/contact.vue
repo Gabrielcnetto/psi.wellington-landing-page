@@ -10,7 +10,7 @@
 <script setup>
 import WppImage from "@/assets/img/whatsapp-white-icon.png"
 function GoWpp(){
-    window.open("https://api.whatsapp.com/send?phone=555199129114","_blank")
+    window.open("https://api.whatsapp.com/send?phone=555199933586","_blank")
 }
 </script>
 <style scoped>
