@@ -1,0 +1,5 @@
+:root {
+    --color-primary: #002060;
+    --color-secondary: color-mix(in srgb, var(--color-primary) 70%, white 30%);
+    --color-tertiary: color-mix(in srgb, var(--color-primary) 50%, black 50%);
+}
