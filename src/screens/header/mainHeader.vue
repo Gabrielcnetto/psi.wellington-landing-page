@@ -1,8 +1,9 @@
 <template>
   <div class="w-full px-10 py-3 bg-white flex flex-row justify-between items-center">
     <!--logo-->
-    <div class="w-15 h-15">
-      <p>Logotipo</p>
+    <div class="flex flex-row justify-center items-center">
+      <img class="h-14 w-10" :src="mindImage" >
+      <p class="Text-sm font-bold">Wellington <br>Netto</p>
     </div>
     <!--opções -->
     <ul class=" hidden options sm:flex flex-row gap-4 font-medium text-lg text-gray-800 cursor-pointer">
@@ -16,6 +17,7 @@
 </template>
 
 <script setup>
+import mindImage from "@/assets/img/mind.svg"
 import contact from '../buttons/contact.vue';
 </script>
 
