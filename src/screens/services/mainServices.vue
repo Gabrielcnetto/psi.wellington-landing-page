@@ -21,27 +21,27 @@ import service_block from './service_block.vue';
 const _serv = ref([
     {
         title: "Autoconhecimento",
-        desc: "Descrição desejada aqui",
+        desc: "A psicoterapia é um espaço seguro para compreender seus pensamentos, sentimentos e comportamentos. Por meio do autoconhecimento, você passa a reconhecer padrões, fortalecer sua identidade e tomar decisões mais conscientes no dia a dia.",
         icon: HeartIcon,
     },
     {
         title: "Aprender a lidar com as emoções",
-        desc: "Descrição desejada aqui",
+        desc: "Na terapia, você desenvolve habilidades para reconhecer, compreender e regular suas emoções. Isso ajuda a lidar melhor com ansiedade, estresse, raiva e frustrações, promovendo relações mais saudáveis consigo e com os outros.",
         icon: HeartIcon,
     },
     {
         title: "Lidar com os desafios da vida",
-        desc: "Descrição desejada aqui",
+        desc: "A psicoterapia auxilia no enfrentamento de momentos difíceis, como mudanças, perdas, conflitos e sobrecarga emocional. Com apoio profissional, você fortalece seus recursos internos para lidar com desafios de forma mais equilibrada.",
         icon: HeartIcon,
     },
     {
         title: "Encontrar um caminho profissional",
-        desc: "Descrição desejada aqui",
+        desc: "Por meio da orientação profissional e de carreira, é possível identificar interesses, habilidades e valores. Esse processo ajuda na escolha ou transição de carreira, trazendo mais clareza, propósito e segurança nas decisões profissionais.",
         icon: HeartIcon,
     },
     {
         title: "Saúde e bem-estar",
-        desc: "Descrição desejada aqui",
+        desc: "Cuidar da saúde mental é essencial para o bem-estar geral. A psicoterapia contribui para uma vida mais equilibrada, promovendo qualidade de vida, prevenção de adoecimentos emocionais e fortalecimento da saúde psicológica.",
         icon: HeartIcon,
     },
 ])

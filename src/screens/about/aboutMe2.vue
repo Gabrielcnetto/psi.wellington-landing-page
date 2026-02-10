@@ -7,9 +7,7 @@
       class="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 justify-items-start h-full"
     >
       <!-- imagem -->
-      <div class="w-full h-[15rem] sm:h-full bg-red-50 flex items-center justify-center">
-        <p>Sua foto aqui</p>
-      </div>
+       <img :src="wellingtonImg" class="object-cover w-full h-[15rem] sm:h-full bg-red-50 flex items-center justify-center rounded-2xl  ">
 
       <!-- texto -->
       <div
@@ -22,26 +20,9 @@
         </p>
 
         <p class="text-sm text-gray-700 leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          iste saepe temporibus facere sequi explicabo est cum nihil dolorem
-          aliquid deleniti reprehenderit, illum asperiores velit cupiditate
-          molestias quasi veniam quae.
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
-          libero non fugiat, ut qui veniam sapiente, culpa magni facilis quam
-          obcaecati perspiciatis illo dolores fuga, provident delectus.
-          Laudantium, saepe veniam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-          eius distinctio eligendi exercitationem itaque voluptas accusantium
-          ipsum magnam enim natus nostrum, nihil commodi fugiat pariatur nemo
-          quam mollitia assumenda delectus.
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci,
-          numquam commodi nesciunt pariatur necessitatibus labore ipsa cum vero
-          quae modi delectus temporibus corporis deserunt accusamus veritatis
-          ab esse odit explicabo.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          ratione, impedit veniam eaque cupiditate, autem, facilis obcaecati
-          molestias fuga quod ullam maxime ea esse deleniti. Nisi magnam earum
-          commodi beatae.
+          Sou psicólogo com atuação na Terapia Cognitivo-Comportamental para adultos e crianças. Ao longo da minha trajetória, desenvolvi experiência no acompanhamento de crianças com Transtorno do Espectro Autista (TEA), Transtorno Opositor Desafiador (TOD) e transtornos de humor, sempre com um olhar acolhedor, ético e baseado em evidências científicas.
+           <br> Além da prática clínica, atuo como Orientador Profissional e de Carreira, desenvolvendo projetos que já impactaram centenas de jovens, adultos e idosos, auxiliando pessoas a fazerem escolhas profissionais mais conscientes, alinhadas aos seus valores, talentos e objetivos de vida
+           <br>Acredito que o cuidado psicológico vai além do alívio dos sintomas: trata-se de promover autoconhecimento, autonomia e qualidade de vida, respeitando a singularidade de cada pessoa e sua história.
         </p>
 
         <div class="flex flex-row justify-start items-center gap-2 mt-3">
@@ -68,7 +49,9 @@
     </div>
   </div>
 </template>
-
+<script setup >
+import wellingtonImg from "@/assets/img/wellAbout.jpeg"
+</script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 

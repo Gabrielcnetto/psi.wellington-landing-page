@@ -15,7 +15,7 @@
         </div>
 
         <p class="desc text-xs sm:text-sm text-gray-500 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsum exercitationem sed tempore autem porro cumque asperiores alias earum sapiente, sunt facilis sequi quos, dolorem cum, laborum consectetur ullam? Ab.
+            {{ item.item.desc }}
         </p>
     </div>
 </template>

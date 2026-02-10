@@ -2,15 +2,15 @@
   <div class="w-full h-auto  bg-orange-100/40 rounded-2xl grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center gap-8">
     
     <div class="flex flex-col gap-4 justify-center items-start w-full px-2 sm:px-6 p-5">
-      <h1 class="text-3xl sm:text-4xl font-medium leading-snug">
+      <h1 class="text-2xl sm:text-4xl font-medium leading-snug">
         {{ Comprimentar() }}<br>
         Eu sou o psicólogo<br>
         <span class="text-black font-bold">Wellington Carlos Netto</span>
       </h1>
       <!--<p class="crp text-sm sm:text-sm mt-3 font-medium text-black">CRP - XX/XXXXX</p>-->
-      <p class="brev_desc text-sm sm:text-sm">
-        Psicólogo, graduado pela Universidade Feevale (RS), com pós-graduação em Análise do Comportamento Aplicado (ABA). 
-        Atuo como Orientador Profissional e de Carreira, tendo impactado mais de 400 pessoas por meio de projetos de orientação.
+      <p class="brev_desc text-xs sm:text-sm">
+        Psicólogo, graduado pela Universidade Feevale (RS), com pós-graduação em Análise do Comportamento Aplicado (ABA). Atua como Terapeuta Cognitivo-Comportamental e como Orientador Profissional 
+        e de Carreira, tendo impactado mais de 400 pessoas por meio de projetos de orientação profissional.
       </p>
       <div class="mt-4 flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3">
         <contact></contact>

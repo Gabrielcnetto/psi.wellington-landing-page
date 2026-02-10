@@ -1,74 +1,70 @@
 <template>
-  <div
-    class="w-full min-h-[30rem] bg-green-800 rounded-2xl p-5 sm:p-8"
-  >
+  <div class="w-full min-h-[30rem] bg-green-800 rounded-2xl p-5 sm:p-8">
     <h1 class="text-2xl sm:text-4xl text-white leading-snug">
-      Sobre a
-      <span class="font text-green-500 font-bold">Terapia,</span>
-      <span class="block sm:inline">
-        Um processo que pode ajudar você a se entender melhor
-      </span>
+      Sobre a <span class="text-green-500">Orientação Profissional</span>, um processo que pode ajudar a ter mais
+      clareza sobre sua carreira e projeto de vida.
     </h1>
 
     <section class="w-full mx-auto px-0 sm:px-6 py-10 sm:py-16">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6
+        *:rounded-2xl *:border *:border-gray-200 *:p-5 *:sm:p-6 *:bg-white
+      ">
 
         <!-- Card 1 -->
-        <div class="rounded-2xl border border-gray-200 p-5 sm:p-6 bg-white">
+        <li>
           <h3 class="text-lg sm:text-xl font-medium text-gray-900 mb-2">
-            Um espaço de escuta
+            Primeira Escolha Profissional
           </h3>
           <p class="text-sm text-gray-600 leading-relaxed">
-            A terapia oferece um espaço seguro para falar sobre sentimentos,
-            pensamentos e experiências sem julgamentos.
-          </p>
-        </div>
+            Jovens em fase de escolha profissional que buscam identificar interesses, habilidades e valores, reduzindo
+            inseguranças na escolha do curso, profissão ou primeiro emprego.
 
-        <!-- Card 2 -->
-        <div class="rounded-2xl border border-gray-200 p-5 sm:p-6 bg-white">
+          </p>
+        </li>
+
+        <li>
           <h3 class="text-lg sm:text-xl font-medium text-gray-900 mb-2">
-            Autoconhecimento
+            Transição de Carreira
+
           </h3>
           <p class="text-sm text-gray-600 leading-relaxed">
-            Ao longo do processo, você pode compreender melhor suas emoções,
-            comportamentos e padrões de vida.
-          </p>
-        </div>
+            Indivíduos que enfrentam mudanças impostas ou desejadas, como demissões, recomeços profissionais, retorno ao
+            mercado de trabalho ou empreendedorismo.
 
-        <!-- Card 3 -->
-        <div class="rounded-2xl border border-gray-200 p-5 sm:p-6 bg-white">
+          </p>
+        </li>
+        <li>
           <h3 class="text-lg sm:text-xl font-medium text-gray-900 mb-2">
-            Cuidado emocional
+            Planejamento de Aposentadoria
           </h3>
           <p class="text-sm text-gray-600 leading-relaxed">
-            A terapia ajuda a desenvolver formas mais saudáveis de lidar
-            com dificuldades emocionais e desafios do dia a dia.
+            Pessoas que desejam continuar ativas profissionalmente, planejar aposentadoria, ressignificar sua trajetória
+            ou iniciar novos projetos pessoais e profissionais.
           </p>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="rounded-2xl border border-gray-200 p-5 sm:p-6 bg-white">
+        </li>
+        <li>
           <h3 class="text-lg sm:text-xl font-medium text-gray-900 mb-2">
-            Processo contínuo
+            Estudantes e Instituições
+
           </h3>
           <p class="text-sm text-gray-600 leading-relaxed">
-            Não se trata de respostas prontas, mas de um caminho construído
-            com tempo, escuta e reflexão.
-          </p>
-        </div>
+            Escolas, universidades e instituições que buscam apoiar estudantes em processos de escolha profissional,
+            planejamento de carreira e desenvolvimento profissional.
 
-        <!-- Card 5 -->
-        <div class="rounded-2xl border border-gray-200 p-5 sm:p-6 bg-white sm:col-span-2 lg:col-span-1">
+          </p>
+        </li>
+        <li>
           <h3 class="text-lg sm:text-xl font-medium text-gray-900 mb-2">
-            Para diferentes momentos
+            Empresas e Organizações 
+
+
           </h3>
           <p class="text-sm text-gray-600 leading-relaxed">
-            A terapia pode ser útil tanto em períodos difíceis quanto
-            para quem busca se conhecer melhor.
-          </p>
-        </div>
+         Organizações interessadas em desenvolvimento de talentos, redução de turnover, planejamento de carreira, sucessão e bem-estar profissional dos colaboradores.
 
-      </div>
+          </p>
+        </li>
+      </ul>
     </section>
   </div>
 </template>
@@ -78,6 +74,6 @@
 
 
 .font {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 </style>
