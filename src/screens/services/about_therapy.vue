@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full min-h-[30rem] bg-green-800 rounded-2xl p-5 sm:p-8">
-    <h1 class="text-2xl sm:text-4xl text-white leading-snug">
-      Sobre a <span class="text-green-500">Orientação Profissional</span>, um processo que pode ajudar a ter mais
+  <div id="work1"  class="w-full min-h-[30rem] bg-green-800 rounded-2xl p-5 sm:p-8">
+    <h1 class="text-xl sm:text-4xl text-white leading-snug">
+      Sobre a <span class="text-green-500">Orientação Profissional</span> <br class="sm:hidden"> um processo que pode ajudar a ter mais
       clareza sobre sua carreira e projeto de vida.
     </h1>
 
@@ -15,7 +15,7 @@
           <h3 class="text-lg sm:text-xl font-medium text-gray-900 mb-2">
             Primeira Escolha Profissional
           </h3>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
             Jovens em fase de escolha profissional que buscam identificar interesses, habilidades e valores, reduzindo
             inseguranças na escolha do curso, profissão ou primeiro emprego.
 
@@ -27,7 +27,7 @@
             Transição de Carreira
 
           </h3>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
             Indivíduos que enfrentam mudanças impostas ou desejadas, como demissões, recomeços profissionais, retorno ao
             mercado de trabalho ou empreendedorismo.
 
@@ -37,7 +37,7 @@
           <h3 class="text-lg sm:text-xl font-medium text-gray-900 mb-2">
             Planejamento de Aposentadoria
           </h3>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
             Pessoas que desejam continuar ativas profissionalmente, planejar aposentadoria, ressignificar sua trajetória
             ou iniciar novos projetos pessoais e profissionais.
           </p>
@@ -47,7 +47,7 @@
             Estudantes e Instituições
 
           </h3>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
             Escolas, universidades e instituições que buscam apoiar estudantes em processos de escolha profissional,
             planejamento de carreira e desenvolvimento profissional.
 
@@ -59,7 +59,7 @@
 
 
           </h3>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
          Organizações interessadas em desenvolvimento de talentos, redução de turnover, planejamento de carreira, sucessão e bem-estar profissional dos colaboradores.
 
           </p>

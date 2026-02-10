@@ -8,7 +8,7 @@
     <ul class=" hidden options sm:flex flex-row gap-4 font-medium text-lg text-gray-800 cursor-pointer">
       <li>Sobre</li>
       <li> <a href="#clinic">Psicologia Clínica</a> </li>
-      <li>Orientação profissional</li>
+      <li> <a href="#work1">Orientação profissional</a> </li>
     </ul>
     <!--contact-->
     <contact class="hidden sm:flex"></contact>

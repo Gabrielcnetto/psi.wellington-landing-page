@@ -20,8 +20,8 @@
       </div>
     </div>
 
-    <div class="w-full h-60 sm:h-full bg-orange-400 flex items-center justify-center rounded-lg rounded-r-2xl">
-      <img :src="WellPhoto" class="rounded-r-2xl" >
+    <div class="w-full h-60 sm:h-full flex items-center justify-center rounded-lg sm:rounded-r-2xl">
+      <img :src="WellPhoto" class="sm:rounded-r-2xl rounded-b-2xl sm:rounded-none" >
     </div>
 
   </div>
