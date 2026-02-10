@@ -11,7 +11,7 @@
             <p class="text-xl sm:text-3xl font-normal">
                 {{ item.item.title }}
             </p>
-            <component :is="item.item.icon" class="w-6 h-6 sm:w-8 sm:h-8 text-orange-400" />
+            <component :is="item.item.icon" />
         </div>
 
         <p class="desc text-xs sm:text-sm text-gray-500 leading-relaxed">
