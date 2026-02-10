@@ -1,6 +1,6 @@
 <template>
     <div id="clinic" class="w-full px-4 sm:px-10 sm:px-20 sm:mt-10">
-        <ul class="grid grid-cols-3 gap-2">
+        <ul class="grid grid-cols-1 sm:grid-cols-3 gap-2">
             <h1 class="w-full text-2xl sm:text-4xl leading-tight">
                Como a <br> psicoterapia <br> pode te ajudar?
             </h1>

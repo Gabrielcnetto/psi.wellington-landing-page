@@ -1,6 +1,6 @@
 <template>
     <div class="w-full min-h-[40rem] bg-green-50 rounded-2xl p-5 flex flex-col gap-6">
-        <h1 class="text-center text-3xl md:text-4xl">Como é uma sessão?</h1>
+        <h1 class="sm:text-center text-3xl md:text-4xl">Como é uma sessão?</h1>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full items-stretch h-full md:px-40">
             <ul class="flex flex-col gap-6 w-full">
