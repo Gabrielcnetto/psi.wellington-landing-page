@@ -11,23 +11,23 @@
                 <div class="flex flex-row justify-between sm:justify-center items-start sm:mt-0 mt-5">
 
                     <div class="px-2 sm:px-5 flex flex-col">
-                        <p class="text-yellow-300 font-bold text-shadow-2xs text-4xl sm:text-5xl">
+                        <p class="text-yellow-300 font-bold text-shadow-2xs text-4xl sm:text-8xl">
                             pop <span class="text-gray-500">.</span>
                         </p>
-                        <p class="text-xs font-medium">Empresas</p>
+                        <p class="sm:mt-3 text-xs font-medium">Empresas</p>
                     </div>
 
                     <div class="px-5 flex flex-col">
-                        <p class="text-purple-500 font-bold text-shadow-2xs text-4xl sm:text-5xl">
+                        <p class="text-purple-500 font-bold text-shadow-2xs text-4xl sm:text-8xl">
                             pop <span class="text-yellow-300">.</span>
                         </p>
-                        <p class="text-xs font-medium">Escolas</p>
+                        <p class="sm:mt-3 text-xs font-medium">Escolas</p>
                     </div>
 
                 </div>
 
                 <ul
-                    class=" flex flex-col justify-center items-center *:bg-gray-100/70 *:rounded-xl *:w-full gap-2 *:p-5 sm:mx-5 mt-5 *:text-center">
+                    class="text-xs font-medium sm:text-lg flex flex-col justify-center items-center *:bg-gray-100/70 *:rounded-xl *:w-full gap-2 *:p-5 sm:mx-5 mt-5 *:text-center">
 
                     <li>Mais de 400 sessões de orientação profissional</li>
 
