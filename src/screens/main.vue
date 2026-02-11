@@ -9,7 +9,7 @@
             <about_therapy></about_therapy>
             <professional_start></professional_start>
         </div>
-
+        <mainFooter></mainFooter>
        
     </div>
 </template>
@@ -21,5 +21,5 @@ import firstSession from './first_session/firstSession.vue';
 import aboutMe2 from './about/aboutMe2.vue';
 import about_therapy from './services/about_therapy.vue';
 import professional_start from './professional_start/professional_start.vue';
-
+import mainFooter from './footer/mainFooter.vue';
 </script>

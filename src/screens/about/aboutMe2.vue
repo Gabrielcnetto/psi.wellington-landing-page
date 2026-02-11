@@ -21,8 +21,8 @@
 
         <p class="text-sm text-gray-700 leading-relaxed">
           Sou psicólogo com atuação na Terapia Cognitivo-Comportamental para adultos e crianças. Ao longo da minha trajetória, desenvolvi experiência no acompanhamento de crianças com Transtorno do Espectro Autista (TEA), Transtorno Opositor Desafiador (TOD) e transtornos de humor, sempre com um olhar acolhedor, ético e baseado em evidências científicas.
-           <br> Além da prática clínica, atuo como Orientador Profissional e de Carreira, desenvolvendo projetos que já impactaram centenas de jovens, adultos e idosos, auxiliando pessoas a fazerem escolhas profissionais mais conscientes, alinhadas aos seus valores, talentos e objetivos de vida
-           <br>Acredito que o cuidado psicológico vai além do alívio dos sintomas: trata-se de promover autoconhecimento, autonomia e qualidade de vida, respeitando a singularidade de cada pessoa e sua história.
+            Além da prática clínica, atuo como Orientador Profissional e de Carreira, desenvolvendo projetos que já impactaram centenas de jovens, adultos e idosos, auxiliando pessoas a fazerem escolhas profissionais mais conscientes, alinhadas aos seus valores, talentos e objetivos de vida
+           Acredito que o cuidado psicológico vai além do alívio dos sintomas: trata-se de promover autoconhecimento, autonomia e qualidade de vida, respeitando a singularidade de cada pessoa e sua história.
         </p>
 
         <div class="flex flex-row justify-start items-center gap-2 mt-3">

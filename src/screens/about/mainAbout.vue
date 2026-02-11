@@ -9,7 +9,7 @@
       </h1>
       <!--<p class="crp text-sm sm:text-sm mt-3 font-medium text-black">CRP - XX/XXXXX</p>-->
       <p class="brev_desc text-xs sm:text-sm">
-        Psicólogo, graduado pela Universidade Feevale (RS), com pós-graduação em Análise do Comportamento Aplicado (ABA). Atua como Terapeuta Cognitivo-Comportamental e como Orientador Profissional 
+        Psicólogo, graduado pela Universidade Feevale (RS), com pós-graduação em Análise do Comportamento Aplicado (ABA). Atuo como Terapeuta Cognitivo-Comportamental e como Orientador Profissional 
         e de Carreira, tendo impactado mais de 400 pessoas por meio de projetos de orientação profissional.
       </p>
       <div class="mt-4 flex flex-col sm:flex-row justify-start items-start sm:items-center gap-3">
