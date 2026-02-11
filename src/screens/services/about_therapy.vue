@@ -1,7 +1,7 @@
 <template>
   <div id="work1"  class="w-full min-h-[30rem] bg-green-800 rounded-2xl p-5 sm:p-8">
     <h1 class="text-xl sm:text-4xl text-white leading-snug">
-      Sobre a <span class="text-green-500">Orientação Profissional</span> <br class="sm:hidden"> um processo que pode ajudar a ter mais
+      Sobre a <span class="text-green-500 font-bold">Orientação Profissional</span> <br class="sm:hidden"> um processo que pode ajudar a ter mais
       clareza sobre sua carreira e projeto de vida.
     </h1>
 
