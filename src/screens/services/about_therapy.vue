@@ -1,8 +1,8 @@
 <template>
   <div id="work1"  class="w-full min-h-[30rem] bg-green-800 rounded-2xl p-5 sm:p-8">
-    <h1 class="text-xl sm:text-4xl text-white leading-snug">
-      Sobre a <span class="text-green-500 font-bold">Orientação Profissional</span> <br class="sm:hidden"> um processo que pode ajudar a ter mais
-      clareza sobre sua carreira e projeto de vida.
+    <h1 class="text-lg sm:text-4xl text-white leading-snug">
+     <span class="text-green-500 font-bold">Orientação profissional</span> é um processo de autoconhecimento que ajuda você a conquistar mais clareza sobre sua carreira
+     e seu projeto de vida. <br> <span class="text-green-500 font-bold">É recomendado para:</span>
     </h1>
 
     <section class="w-full mx-auto px-0 sm:px-6 py-10 sm:py-16">

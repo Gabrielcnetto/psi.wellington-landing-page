@@ -42,8 +42,8 @@
         </ul>
         <ul class="flex flex-col justify-start items-start gap-2 *:hover:underline *:hover:cursor-pointer">
             <li class="text-lg font-bold text-white">Serviços</li>
-            <li @click="GoWppMessage('tenho%20interesse%20na%20psicologia%20clinica')" class="text-sm text-white/70 font-medium">Psicologia Clínica</li>
-            <li @click="GoWppMessage('quero%20ajuda%20com%20orientacao%20profissional')" class="text-sm text-white/70 font-medium">Orientação profissional</li>
+            <li @click="GoWppMessage('')" class="text-sm text-white/70 font-medium">Psicologia Clínica</li>
+            <li @click="GoWppMessage('')" class="text-sm text-white/70 font-medium">Orientação profissional</li>
         </ul>
         <ul class="flex flex-col justify-start items-start gap-2 *:hover:underline *:hover:cursor-pointer">
             <li class="text-lg font-bold text-white">Redes sociais</li>

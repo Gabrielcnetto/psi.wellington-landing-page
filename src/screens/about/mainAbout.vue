@@ -7,6 +7,7 @@
         Eu sou o psicólogo<br>
         <span class="text-black font-bold">Wellington Carlos Netto</span>
       </h1>
+      <p class="sm:text-sm text-xs font-medium" >CRP 07/45416</p>
       <!--<p class="crp text-sm sm:text-sm mt-3 font-medium text-black">CRP - XX/XXXXX</p>-->
       <p class="brev_desc text-xs sm:text-sm">
         Psicólogo, graduado pela Universidade Feevale (RS), com pós-graduação em Análise do Comportamento Aplicado (ABA). Atuo como Terapeuta Cognitivo-Comportamental e como Orientador Profissional 
