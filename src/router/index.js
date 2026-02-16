@@ -5,7 +5,7 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
-    meta: { requiresAuth: false, title: "Psi.Wellington Netto" },
+    meta: { requiresAuth: false, title: "Psi.Wellington" },
   },
 ]
 const router = createRouter({
@@ -13,7 +13,7 @@ const router = createRouter({
   routes,
 });
 router.beforeEach(async (to, from, next) => {
-  document.title = to.meta?.title || "Psi.Wellington Netto";
+  document.title = to.meta?.title || "Psi.Wellington";
  next();
 });
 

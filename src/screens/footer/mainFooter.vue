@@ -42,8 +42,8 @@
         </ul>
         <ul class="flex flex-col justify-start items-start gap-2 *:hover:underline *:hover:cursor-pointer">
             <li class="text-lg font-bold text-white">Serviços</li>
-            <li @click="GoWppMessage('')" class="text-sm text-white/70 font-medium">Psicologia Clínica</li>
-            <li @click="GoWppMessage('')" class="text-sm text-white/70 font-medium">Orientação profissional</li>
+            <li @click="GoWpp" class="text-sm text-white/70 font-medium">Psicologia Clínica</li>
+            <li @click="GoWpp" class="text-sm text-white/70 font-medium">Orientação profissional</li>
         </ul>
         <ul class="flex flex-col justify-start items-start gap-2 *:hover:underline *:hover:cursor-pointer">
             <li class="text-lg font-bold text-white">Redes sociais</li>
@@ -64,10 +64,6 @@
 <script setup>
 function GoWpp(){
     window.open("https://api.whatsapp.com/send?phone=555199933586","_blank")
-}
-
-function GoWppMessage(message){
-    window.open(`https://api.whatsapp.com/send?phone=555199933586&text=${message}`,"_blank")
 }
 
 function goinsta(){
