@@ -5,7 +5,7 @@ import { configure } from "vue-gtag";
 import './style.css'
 
 configure({
-  tagId: "GTM-NM98W69S"
+  tagId: "G-MBJWB2BKK8"
 })
 
 const app = createApp(App)
