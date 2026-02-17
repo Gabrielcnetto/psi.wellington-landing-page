@@ -8,8 +8,10 @@
 
 </template>
 <script setup>
+import { event } from 'vue-gtag'
 import WppImage from "@/assets/img/whatsapp-white-icon.png"
 function GoWpp(){
+    event('clique_whatsapp', { key: 'value',value: 1 })
     window.open("https://api.whatsapp.com/send?phone=555199933586","_blank")
 }
 </script>

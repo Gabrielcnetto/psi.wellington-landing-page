@@ -15,6 +15,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import { event } from 'vue-gtag'
 import selfknowledge from './icons/selfknowledge.vue';
 import emotions from './icons/emotions.vue';
 import chal from './icons/chal.vue';
@@ -53,6 +54,7 @@ const _serv = ref([
 ])
 
 function opnWpp() {
-    window.open("https://api.whatsapp.com/send?phone=555199129114", "_blank")
+    event('clique_whatsapp', { key: 'value',value: 1 })
+    window.open("https://api.whatsapp.com/send?phone=555199933586","_blank")
 }
 </script>
