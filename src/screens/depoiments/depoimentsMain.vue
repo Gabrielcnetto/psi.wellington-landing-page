@@ -33,6 +33,7 @@ import { ref } from 'vue';
 import Image1 from "@/assets/img/depoiments/dep1.jpeg"
 import Image2 from "@/assets/img/depoiments/dep2.jpeg"
 import Image3 from "@/assets/img/depoiments/dep3.jpeg"
+import Image4 from "@/assets/img/depoiments/dep4.jpeg"
 const Depoiments = ref([
     {
         name: "Karoline",
@@ -49,7 +50,11 @@ const Depoiments = ref([
         depoiment: "O POP foi essencial para meu autoconhecimento e crescimento profissional, ajudando-me a melhorar minha vida e trabalho. Sou muito grata ao Psicólogo Wellington pelo acolhimento e por me fazer acreditar que sou capaz de realizar meus sonhos.",
         img: Image3,
     },
-    
+        {
+        name: "Isabela",
+        depoiment: "Quando entrei no POP, em julho de 2025, eu estava sem direção profissional, sem saber o que gostava ou o que cursar. Após conversas, entendi que meus desejos podem mudar, e tudo bem. A vida é feita de ciclos, e começo um novo agora. Sou muito grata ao programa — ele me fez ver a vida profissional com outros olhos.",
+        img: Image4,
+    },
 ])
 
 

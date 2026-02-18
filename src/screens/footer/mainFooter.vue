@@ -70,6 +70,6 @@ function GoWpp(){
 }
 
 function goinsta(){
-    window.open(`https://instagram.com`,"_blank")
+    window.open(`https://www.instagram.com/psi.wellingtonnetto/`,"_blank")
 }
 </script>

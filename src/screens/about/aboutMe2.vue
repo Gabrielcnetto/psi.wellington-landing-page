@@ -42,7 +42,7 @@
           </svg>
 
           <p class="font-medium text-xs cursor-pointer underline">
-            <a href="https://instagram.com">@Wellington</a>
+            <a href="https://www.instagram.com/psi.wellingtonnetto/">@Wellington</a>
           </p>
         </div>
       </div>
