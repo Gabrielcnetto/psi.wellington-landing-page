@@ -30,10 +30,10 @@
 
 <script setup>
 import { ref } from 'vue';
-import Image1 from "@/assets/img/depoiments/dep1.jpeg"
-import Image2 from "@/assets/img/depoiments/dep2.jpeg"
-import Image3 from "@/assets/img/depoiments/dep3.jpeg"
-import Image4 from "@/assets/img/depoiments/dep4.jpeg"
+import Image1 from "@/assets/img/depoiments/default.jpg"
+import Image2 from "@/assets/img/depoiments/default.jpg"
+import Image3 from "@/assets/img/depoiments/default.jpg"
+import Image4 from "@/assets/img/depoiments/default.jpg"
 const Depoiments = ref([
     {
         name: "Karoline",
